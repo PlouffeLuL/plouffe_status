@@ -1,0 +1,105 @@
+.container {
+    width: 100vh;
+    height: fit-content;
+    max-height: 30vh;
+    position: absolute;
+    top: 1%;
+    right: 50vh;
+    background-color: rgba(54, 97, 156, 0.0);
+    /* border-color:rgba(54, 97, 156, 0.897);
+    border: 0.1vh solid; */
+    overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons-container {
+    width: 20%;
+    height: 99.5%;
+    position: absolute;
+    right: 0.1vh;
+    top: 0.1vh;
+    border-radius: 0.2vh;
+    background-color: rgba(54, 97, 156, 0.0);
+}
+
+.button {
+    position: relative;
+    width: 90%;
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    border-radius: 0.2vh;
+    background: rgba(54, 97, 156, 0.80);
+
+    font: caption;
+    font-size: 1.3vh;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 700;
+    /* padding:0.1vh 0.1vh 0.1vh 0.1vh; */
+    margin-right:5px;
+    float: right;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(54, 97, 156, 0.40);
+    cursor: pointer;
+}
+
+.injury-container {
+    float: right;
+    width: 25%;
+    position: relative;
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    border-radius: 0.2vh;
+    /* background: rgba(78, 78, 78, 0.8); */
+    font: caption;
+    font-size: 1.3vh;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.injury-container:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.injury-default {
+    background-color:  rgba(78, 78, 78, 0.8);
+}
+
+.injury-infected {
+    background-color:  rgba(191, 236, 68, 0.8);
+}
+
+.injury-bleeding {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#injury-information {
+    letter-spacing: 0.4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding:5px 5px 4px 5px;
+    margin-right:5px;
+    float: left;
+    border-radius: 5px;
+}
+
+#injury-button {
+    top: 50%;
+    right: 0.1%;
+    letter-spacing: 0.4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding:5px 5px 4px 5px;
+    margin-right:5px;
+    float: right;
+    border-radius: 5px;
+}
